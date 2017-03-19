@@ -1,0 +1,46 @@
+{
+  "name": "debounce-with-result",
+  "version": "1.0.0",
+  "description": "A debounce variation that returns a result as a Promise",
+  "homepage": "https://github.com/thgreasi/debounce-with-result.js",
+  "main": "dist/debounce-with-result.js",
+  "jsnext:main": "dist/debounce-with-result.es6.js",
+  "typings": "typings/debounce-with-result.d.ts",
+  "scripts": {
+    "prebuild": "eslint lib test",
+    "build": "rollup -c rollup.config.umd.js && rollup -c rollup.config.es6.js",
+    "pretest": "rollup -c rollup.config.test.js",
+    "test": "mocha build/test-bundle.js && node_modules/.bin/tsc --project typing-tests",
+    "prepublish": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thgreasi/debounce-with-result.js.git"
+  },
+  "keywords": [
+    "debounce",
+    "result",
+    "promise"
+  ],
+  "author": "Thodoris Greasidis",
+  "licence": "Apache-2.0",
+  "bugs": {
+    "url": "http://github.com/thgreasi/debounce-with-result.js/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint": "^2.8.0",
+    "mocha": "^2.4.5",
+    "rollup": "^0.37.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-multi-entry": "^2.0.1",
+    "source-map-support": "^0.4.0",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+  }
+}
