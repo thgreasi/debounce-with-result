@@ -39,4 +39,4 @@ getSomethingDebounced().then((result) => { console.log('getSomething resolved ' 
 ```
 
 # Examples
-[Jsbin example](http://jsbin.com/dihorah/1/edit?js,console)
+[Jsbin example](http://jsbin.com/dihorah/2/edit?js,console)
