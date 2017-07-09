@@ -1,6 +1,6 @@
 {
   "name": "debounce-with-result",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A debounce variation that returns a result as a Promise",
   "homepage": "https://github.com/thgreasi/debounce-with-result",
   "main": "dist/debounce-with-result.js",
