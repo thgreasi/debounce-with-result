@@ -1,5 +1,5 @@
-debounce-with-result.js
-=======================
+debounce-with-result
+====================
 [![NPM version](https://badge.fury.io/js/debounce-with-result.svg)](http://badge.fury.io/js/debounce-with-result)
 [![npm](https://img.shields.io/npm/dm/debounce-with-result.svg)](https://www.npmjs.com/package/debounce-with-result)  
 A debounce variation that returns a result as a Promise
