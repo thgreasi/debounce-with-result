@@ -2,7 +2,7 @@
   "name": "debounce-with-result",
   "version": "1.0.0",
   "description": "A debounce variation that returns a result as a Promise",
-  "homepage": "https://github.com/thgreasi/debounce-with-result.js",
+  "homepage": "https://github.com/thgreasi/debounce-with-result",
   "main": "dist/debounce-with-result.js",
   "jsnext:main": "dist/debounce-with-result.es6.js",
   "typings": "typings/debounce-with-result.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thgreasi/debounce-with-result.js.git"
+    "url": "git://github.com/thgreasi/debounce-with-result.git"
   },
   "keywords": [
     "debounce",
@@ -25,7 +25,7 @@
   "author": "Thodoris Greasidis",
   "licence": "Apache-2.0",
   "bugs": {
-    "url": "http://github.com/thgreasi/debounce-with-result.js/issues"
+    "url": "http://github.com/thgreasi/debounce-with-result/issues"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
